@@ -1,0 +1,10 @@
+[
+  {
+    "id": "base",
+    "routesVariants": ["get-images:success", "like-images:success"]
+  },
+  {
+    "id": "error",
+    "routesVariants": ["get-images:error", "like-images:error"]
+  }
+]
