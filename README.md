@@ -71,3 +71,4 @@ Si no dispones de photoshop puedes usar [photopea](https://www.photopea.com/).
 - HTML y estilos responsive a partir de los PSDs: mobile para móviles y web para Desktop.
 
 Se valorarán el uso e implementación de tests.
+# collection-search-frontend
