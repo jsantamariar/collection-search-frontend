@@ -33,3 +33,19 @@ This project is a Single Page Application (SPA) developed using React to display
    git clone https://github.com/your-repo/collection-search-frontend.git
    cd collection-search-frontend
    ```
+2. Install dependencies:
+   ```bash
+   yarn install
+   ```
+3. Start the mock API:
+   ```bash
+   yarn mocks
+   ```
+
+The mock API will be available at:
+Base URL: http://localhost:3100
+
+4. Start the development server:
+   ```bash
+   yarn dev
+   ```
