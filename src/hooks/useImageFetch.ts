@@ -15,7 +15,7 @@ interface Image {
   liked: boolean;
 }
 
-const useImageFetch = () => {
+export const useImageFetch = () => {
   const [images, setImages] = useState<Image[]>([]);
   const [filteredImages, setFilteredImages] = useState<Image[]>([]);
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -100,5 +100,3 @@ const useImageFetch = () => {
     page,
   };
 };
-
-export default useImageFetch;

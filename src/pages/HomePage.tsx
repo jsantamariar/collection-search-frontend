@@ -1,9 +1,7 @@
-import Header from "@/components/Header";
-import ImageCard from "@/components/ImageCard";
-import Loading from "@/components/Loading";
-import useImageFetch from "@/hooks/useImageFetch";
+import { Header, ImageCard, Loading } from "@/components";
+import { useImageFetch } from "@/hooks";
 
-const HomePage = () => {
+export const HomePage = () => {
   const {
     filteredImages,
     isLoading,
@@ -50,5 +48,3 @@ const HomePage = () => {
     </div>
   );
 };
-
-export default HomePage;

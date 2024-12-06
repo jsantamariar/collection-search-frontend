@@ -8,7 +8,7 @@ interface ImageCardProps {
   onLikeToggle: () => void;
 }
 
-const ImageCard = ({
+export const ImageCard = ({
   title,
   author,
   image,
@@ -71,5 +71,3 @@ const ImageCard = ({
     </div>
   );
 };
-
-export default ImageCard;

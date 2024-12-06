@@ -2,7 +2,7 @@ interface HeaderProps {
   onSearch: (query: string) => void;
 }
 
-const Header = ({ onSearch }: HeaderProps) => {
+export const Header = ({ onSearch }: HeaderProps) => {
   return (
     <header className="flex items-center justify-between p-4 bg-white">
       <div className="flex-shrink-0">
@@ -29,5 +29,3 @@ const Header = ({ onSearch }: HeaderProps) => {
     </header>
   );
 };
-
-export default Header;
